@@ -1,69 +1,121 @@
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-2. Creating a Repository on GitHub:
-Go to GitHub and log in.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease;
+        }
 
-Click on the "+" sign in the top right corner and choose "New repository."
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
 
-Fill in the repository name, description, and other settings.
+        section {
+            margin: 20px;
+        }
 
-Optionally, add a README file and a .gitignore file based on your project's needs.
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
 
-Click on "Create repository."
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-3. Cloning a Repository:
-To work with code from a GitHub repository on your local machine, you need to clone it:
+    <header>
+        <h1>My Portfolio</h1>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
-Replace "your-username" with your GitHub username and "your-repository" with the name of your repository.
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is a brief description of myself...</p>
+        <img src="<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease;
+        }
 
-4. Making Changes:
-Navigate to the cloned repository on your local machine:
-bash
-Copy code
-cd your-repository
-Make changes to your code using your preferred code editor.
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
 
-After making changes, check the status of your repository:
+        section {
+            margin: 20px;
+        }
 
-bash
-Copy code
-git status
-Add the changes to the staging area:
-bash
-Copy code
-git add .
-Replace "." with the specific files you want to stage if needed.
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
 
-Commit the changes:
-bash
-Copy code
-git commit -m "Your commit message"
-5. Pushing Changes to GitHub:
-bash
-Copy code
-git push origin master
-This command pushes your changes to the master branch on the GitHub repository. If you're working on a branch, replace "master" with your branch name.
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-6. Branching and Pull Requests:
-If you're working on a new feature or bug fix, it's a good practice to create a new branch:
+    <header>
+        <h1>My Portfolio</h1>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
 
-bash
-Copy code
-git checkout -b feature-branch
-Make your changes, commit them, and then push the branch to GitHub:
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is a brief description of myself...</p>
+        <img src="C:\Users\HP\Desktop.jpg" alt="cartoon-muslim-kids-going-to-school-vector-36157598">
+    </section>
 
-bash
-Copy code
-git push origin feature-branch
-After pushing, you can create a pull request on GitHub, which allows others to review and merge your changes into the main branch.
+    <!-- Add more sections for projects, skills, etc. -->
 
-These are the fundamental steps to work with code on GitHub using Git. Depending on your project and workflow, you may encounter additional Git commands and GitHub features. Feel free to ask if you have specific questions!
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
 
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
 
-
-
-
-
+</body>
+</html>
